@@ -1,0 +1,123 @@
+
+.navbar-default {
+	background-color:#2c3e50;
+	padding: 30px;
+}
+.navbar-default .navbar-brand{
+
+	background-color: #2c3e50;
+	border-color: #18bc9c;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: "Helvetica";
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color:#18bc9c;
+}
+
+.navbar-default .navbar-nav > li > a {
+	background-color: #2c3e50;
+	color:#ffffff;
+	font-size: 20px;
+	font-family: "Helvetica";
+}
+
+.navbar-default .navbar-nav > .active {
+	color:#ffffff;
+	background-color:#1a242f;
+}
+
+.navbar-default .navbar-nav >li > a:hover,
+.navbar-default .navbar-nav >li >a:focus {
+	color:#18bc9c;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#ffffff;
+	background-color:#1a242f;
+
+}
+
+
+
+
+.img-overlay {
+	border-radius:10px;
+	max-width: 300px;
+	background-color: #2c3e50 ;
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+body {
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 15px;
+line-height: 1.4;
+
+padding-top: 110px;
+
+
+}
+@media (min-width:767px;){
+
+
+	body {
+		padding-top: 0px;
+	}
+}
+
+header {
+	padding-top:65px;
+	padding-bottom:50px;
+
+	color: #ffffff;
+	text-align:center;
+	background-color: #18bc9c;
+	font-family: "Helvetica";
+}
+
+
+
+.glyphicon-star {
+	display: block;
+	text-align:center;
+	font-size: 30px;
+	padding: 15px;
+	
+
+}
+
+#portfolio {
+	padding-top:50px;
+	padding-bottom:50px;
+
+	color:#2c3e50;
+
+
+}
+
+#about {
+	padding-top:50px;
+	padding-bottom:50px;
+	
+	color:#ffffff;
+	background-color:#18bc9c;
+
+}
+
+#contact {
+	padding-top:50px;
+	padding-bottom:50px;
+	
+	color:#2c3e50;
+
+}
