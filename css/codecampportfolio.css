@@ -41,9 +41,6 @@
 
 }
 
-
-
-
 .img-overlay {
 	border-radius:10px;
 	max-width: 300px;
@@ -99,11 +96,25 @@ header {
 #portfolio {
 	padding-top:50px;
 	padding-bottom:50px;
-
 	color:#2c3e50;
 
 
 }
+
+.portfolio-hover img {
+	height:250px;
+	width: 100%;
+}
+
+.portfolio-hover > a:hover {
+	background-color:#2c3e50;
+	opacity: 0.8;
+
+}
+
+
+   
+
 
 #about {
 	padding-top:50px;
@@ -123,8 +134,74 @@ header {
 
 #contact {
 	padding-top:50px;
-	padding-bottom:50px;
 	
 	color:#2c3e50;
+
+}
+.form-group {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 15;	
+
+
+}
+
+
+.form-group input, textarea {
+
+    background-color: transparent;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+.name {
+	display:none;
+}
+
+.submit-group {
+	padding: 15px;
+}
+
+.btn, .submit-group {
+color: #ffffff;
+background-color: #18bc9c;
+border-radius:10px;
+font-size: 20px;
+display: block;
+padding: 18px 27px;
+
+	
+
+}
+
+#footer-top {
+	margin-top: 50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-size: 20px;
+	color:#ffffff;
+	background-color:#2c3e50;
+
+}
+
+#footer-bot {
+	padding-top:50px;
+	padding-bottom:50px;
+	font-size: 10px;
+	color:#ffffff;
+	background-color:#233140;
+	text-align:center;
+	line-height: 1.1;
 
 }
